@@ -34,8 +34,33 @@ Only the **magnitude features** across different bands are used as input feature
 * **Target variable:** Spectroscopic redshift (`specz_redshift`)
 * **Redshift range:** 0.01 – 4
 
+---
+
+## 🌠 Problem 3: Star–Galaxy–Quasar Classification (SDSS)
+
+This project uses data from the **Sloan Digital Sky Survey (SDSS)** to classify astronomical sources as **stars**, **galaxies**, and **quasars** based on their **photometric properties**.
+The dataset includes **24 photometric features** derived from dereddened magnitudes, colors, and profile-based measurements across the five SDSS bands (`u`, `g`, `r`, `i`, `z`).
+
+The data are provided in the following files:
+
+* **`dnnx_sg.npy`**, **`y_sg.npy`** — Used for **star–galaxy** binary classification
+
+* **`dnnx_sgq.npy`**, **`y_sgq.npy`** — Used for **star–galaxy–quasar** three-class classification
+
+* **`objlist.npy`** — Contains the **SDSS Object IDs** for all sources
+
+* **Total sources:** 239,999
+
+  * Stars: 80,000 Galaxies: 79,999 Quasars: 80,000
+
+This dataset enables both binary and multi-class classification tasks, offering an introductory example of applying supervised learning to astronomical source separation.
+
+---
 
 ## 📚 Citation
+
+> Sloan Digital Sky Survey (SDSS) Collaboration, *SDSS DR17: The Seventeenth Data Release of the Sloan Digital Sky Survey*, Astrophysical Journal Supplement Series, 2022.
+> [https://www.sdss.org](https://www.sdss.org)
 
 > **GalaxiesML Project**, *HSC GalaxiesML: Hyper Suprime-Cam Photometric and Spectroscopic Galaxy Data*, UCLA DataLab.
 > [https://datalab.astro.ucla.edu/galaxiesml.html](https://datalab.astro.ucla.edu/galaxiesml.html)
