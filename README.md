@@ -57,7 +57,31 @@ This dataset enables both binary and multi-class classification tasks, offering 
 
 ---
 
+## ⚡ Problem 4: Gamma / Hadron Event Classification (UCI • MAGIC Gamma Telescope)
+
+This project focuses on classifying **atmospheric particle events** detected by a ground-based **Cherenkov gamma-ray telescope** as either **gamma-ray (signal)** or **hadronic (background)** in origin.
+The task demonstrates how supervised machine learning can be applied to **astroparticle physics** problems, where distinguishing rare astrophysical gamma events from the abundant hadronic background is essential for high-energy gamma-ray astronomy.
+
+---
+
+### 📊 About Dataset
+
+The data, provided as a **`magic04_gamma.csv` file** from the **UCI Machine Learning Repository**, are **computer-generated simulations** that reproduce the detection of high-energy gamma particles using a **MAGIC-type atmospheric Cherenkov telescope**.
+
+These telescopes detect gamma rays indirectly by recording the **Cherenkov light** emitted by charged particles created in **electromagnetic air showers**. Each event corresponds to the pattern of **pulses left by Cherenkov photons** on an array of photomultiplier tubes (PMTs) forming the telescope’s camera. Depending on the energy of the primary particle, from a few hundred to tens of thousands of photons are collected, producing characteristic **shower images** that enable **statistical discrimination** between gamma and hadron events.
+
+> ⚠️ **Notes**
+> • The number of hadron (`h`) events is **underrepresented**; in real data they dominate.
+> • **Simple accuracy** is not an adequate metric — models should be compared using **ROC curves**.
+> • Relevant ROC operating points correspond to background acceptance rates below **0.01, 0.02, 0.05, 0.1, or 0.2**, depending on the required sample purity.
+
+This dataset provides an introductory example of **signal-vs-background classification** in observational high-energy astrophysics and can be used to explore feature selection, imbalance handling, and evaluation techniques common in experimental physics.
+
+---
+
 ## 📚 Citation
+> Bock R. K. et al. (2004). *MAGIC Gamma Telescope Data*. UCI Machine Learning Repository.
+> [https://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope](https://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope)
 
 > Sloan Digital Sky Survey (SDSS) Collaboration, *SDSS DR17: The Seventeenth Data Release of the Sloan Digital Sky Survey*, Astrophysical Journal Supplement Series, 2022.
 > [https://www.sdss.org](https://www.sdss.org)
