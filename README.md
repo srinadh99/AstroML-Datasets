@@ -4,7 +4,7 @@
 
 ---
 
-## 🌌 Problem 1: Galaxy Redshift Prediction
+## 🌌 1: Galaxy Redshift Prediction
 
 This project uses data from the **Sloan Digital Sky Survey (SDSS)** to predict the **redshift of galaxies** from their **photometric magnitudes** across five optical bands — `u`, `g`, `r`, `i`, and `z`.
 
@@ -21,7 +21,7 @@ This task provides an introductory example of how galaxy photometry can be used 
 
 ---
 
-## 🌌 Problem 2: Galaxy Redshift Prediction (HSC • GalaxiesML)
+## 🌌 2: Galaxy Redshift Prediction (HSC • GalaxiesML)
 
 This project uses the **Hyper Suprime-Cam (HSC)** **GalaxiesML** tabular dataset to predict the **redshift of galaxies** from their **photometric magnitudes** across several bands (`g`, `r`, `i`, `z`, `y`, etc.).
 
