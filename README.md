@@ -1,5 +1,9 @@
 # AstroML-Datasets
+
 ## More to be uploaded!
+
+[Zenodo Release](https://zenodo.org/records/17538755)
+
 ## A unified benchmark of 50 Physics & Astronomy datasets.
 
 **AstroML-Datasets** enables **introductory-level machine learning tasks** across **physics and astronomy** domains. It is designed to help students and early researchers from physics and engineering backgrounds explore real-world datasets using basic machine learning techniques.
