@@ -378,7 +378,7 @@ The projects are ordered roughly from **easier undergraduate projects** to **str
 
 ---
 
-## Notes for course design
+## Notes
 
 - Prefer **tabular subsets** first, even when the parent archive also contains images or spectra.
 - For large archives, let students work on **a sampled CSV subset** instead of the full release.
