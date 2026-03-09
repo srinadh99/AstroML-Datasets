@@ -2,9 +2,8 @@
 
 ## Classical-ML-only project ideas for course use
 
-This version is restricted to **Astronomy, Astrophysics, and Space Physics** and uses **classical machine learning only** — no deep learning suggestions.
 
-The projects are ordered roughly from **easier undergraduate projects** to **stronger upper-level / graduate-level projects**.
+The projects are ordered roughly from **easier undergraduate projects** to **stronger graduate-level projects**.
 
 ---
 
